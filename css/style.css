@@ -29,16 +29,9 @@
 }
 
 /* MAIN STYLES */
-
 html {
-  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-
-/* *,
-*::before,
-*::after {
-  box-sizing: inherit;
-} */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -130,25 +123,18 @@ button {
   color: var(--main-white-color-h);
 }
 
+/* STUDIO | PORTFOLIO | CONTACT */
 .nav-menu-items {
   padding-top: 32px;
   padding-bottom: 33px;
   display: inline-block;
   border-bottom: red;
-  transition: color, fill;
-  transition-duration: var(--transition--250ms--);
-  transition-timing-function: var(--cubic-bezier--);
-}
-
-/* STUDIO | PORTFOLIO | CONTACT */
-.nav-menu-items {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--nav-studio-portfolio-contact);
   text-decoration: inherit;
-  /* outline: 3px solid red; */
   position: relative;
   transition: color, fill;
   transition-duration: var(--transition--250ms--);
@@ -376,12 +362,6 @@ button {
   border: 1px solid var(--header-button-active);
 }
 
-/* .btn-close:hover,
-.btn-close:focus {
-  fill: var(--web-hover-button-up-down);
-  background-color: var(--main-white-color-h);
-} */
-
 .main-header-button {
   font-family: inherit;
   background-color: var(--web-hover-button-up-down);
@@ -478,7 +458,6 @@ ul {
 .whatwedo-list {
   display: flex;
   gap: 30px;
-  /* justify-content: space-between; */
 }
 
 .what-items {
@@ -541,12 +520,9 @@ ul {
 .team-participants {
   display: flex;
   gap: 30px;
-  /* margin-top: 50px; */
-  /* justify-content: center; */
 }
 
 .team-item {
-  /* max-width: 270px; */
   flex-basis: ((100% - 90px) / 4);
 }
 

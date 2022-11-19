@@ -1,8 +1,23 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAHV,OAAO;CAId;;AAAC,YAAY;AAAC,oCAAoC",
+    "mappings": "ACAA,AAAA,KAAK,CAAC;EACJ,sDAAsD;EACtD,0BAA0B,CAAA,QAAC;EAC3B,qBAAqB,CAAA,QAAC;EACtB,8BAA8B,CAAA,QAAC;EAC/B,4BAA4B,CAAA,QAAC;EAC7B,oBAAoB,CAAA,QAAC;EACrB,sBAAsB,CAAA,QAAC;EAEvB,+BAA+B;EAC/B,oBAAoB,CAAA,QAAC;EACrB,4BAA4B,CAAA,QAAC;EAE7B,eAAe;EACf,yBAAyB,CAAA,QAAC;EAC1B,gBAAgB,CAAA,QAAC;EACjB,QAAQ,CAAA,QAAC;EACT,oBAAoB,CAAA,wBAAC;EAErB,UAAU;EACV,+BAA+B,CAAA,yBAAC;EAChC,cAAc,CAAA,KAAC;EACf,0BAA0B,CAAA,sBAAC;EAE3B,2BAA2B;EAE3B,qBAAqB,CAAA,MAAC;EACtB,gBAAgB,CAAA,6BAAC;CAClB;;AC5BD,AAAA,IAAI,CAAC;EACH,eAAe,EAAE,MAAM;CACxB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,oBAAoB;EACjC,gBAAgB,EAAE,yBAAyB;EAC3C,cAAc,EAAE,MAAM;EACtB,KAAK,EAAE,0BAA0B;CAClC;;ACTD,AAAA,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AAED,AAAA,GAAG,CAAC;EACF,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;CACb;;AAED,AAAA,IAAI,CAAC;EACH,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,YAAY;CACpB;;AAED,AAAA,EAAE,CAAC;EACD,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AAED,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,eAAe,EAAE,IAAI;CACtB;;AAED,AAAA,MAAM,CAAC;EACL,MAAM,EAAE,CAAC;CACV;;ACpCD,AAAA,UAAU,CAAC;EACT,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,MAAM;EACf,KAAK,EAAE,MAAM;CACd;;AAJD,AAAA,UAAU,CAAC;EACT,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,MAAM;EACf,KAAK,EAAE,MAAM;CACd;;AEJD,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,iBAAiB;CACjC;;AAED,AAAA,iBAAiB,CAAC;EAChB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CACpB;;AAED,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,IAAI;CACV;;AAED,AAAA,YAAY,CAAC;EACX,WAAW,EAAE,IAAI;CAClB;;AAED,AAAA,KAAK,CAAC;EACJ,WAAW,EAAE,SAAS;EACtB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,aAAa;EAC1B,YAAY,EAAE,IAAI;CACnB;;AAED,AAAA,cAAc,CAAC;EACb,KAAK,EAAE,qBAAqB;CAC7B;;AAED,AAAA,eAAe,CAAC;EACd,KAAK,EAAE,0BAA0B;CAClC",
     "sources": [
-        "../sass/main.scss"
+        "../sass/main.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/base/_base.scss",
+        "../sass/base/_reset.scss",
+        "../sass/components/_container.scss",
+        "../sass/components/_container.scss",
+        "../sass/components/_navigation.scss",
+        "../sass/components/_main-studio.scss",
+        "../sass/components/_modal.scss",
+        "../sass/components/_strong-side-section.scss",
+        "../sass/components/_what-we-do-section.scss",
+        "../sass/components/_our-team-section.scss",
+        "../sass/components/_customers-section.scss",
+        "../sass/components/_footer.scss",
+        "../sass/components/_portfolio-page.scss",
+        "../sass/components/_card-set-portfolio.scss"
     ],
     "names": [],
     "file": "main.css"

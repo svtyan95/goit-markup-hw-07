@@ -1,6 +1,115 @@
-body {
-  background-color: #ffffff;
+:root {
+  /* evething-all-colors index.html and portfolio.html*/
+  --web-hover-button-up-down: #2196f3;
+  --Studio-black-000000: #000000;
+  --nav-studio-portfolio-contact: #212121;
+  --nav-address-email-phone-p-: #757575;
+  --main-white-color-h: #ffffff;
+  --header-button-active: #188ce8;
+  /* lower-section-navigation  */
+  --nav-backgroud-main: #2f303a;
+  --nav-background-rgba-C4C4C4: #c4c4c4;
+  /* portfolio */
+  --portfolio-bottons-color: #f5f4fa;
+  --blue-bg-button: #2196f3;
+  --stroke: #eeeeee;
+  --rgba--BLUE-HOVER--: rgba(33, 150, 243, 0.9);
+  /* RGBA */
+  --RGBA-down-section-email-phone: rgba(255, 255, 255, 0.6);
+  --card-set-gap: 30px;
+  --what-we-do-descrption-bg: rgba(47, 48, 58, 0.8);
+  /* TRANSITION PROPERTIES */
+  --transition--250ms--: 250ms;
+  --cubic-bezier--: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* No CSS */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--main-white-color-h);
+  letter-spacing: 0.03em;
+  color: var(--Studio-black-000000);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+button {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1200px;
+}
+
+.top {
+  display: flex;
+  border-bottom: 1px solid var();
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.upper-list {
+  display: flex;
+  gap: 50px;
+}
+
+.right-space {
+  margin-left: auto;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  margin-right: 93px;
+}
+
+.logo-web-blue {
+  color: var(--blue-bg-button);
+}
+
+.logo-web-black {
+  color: var(--Studio-black-000000);
+}
 /*# sourceMappingURL=main.css.map */
