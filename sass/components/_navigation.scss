@@ -112,17 +112,6 @@
   transition-timing-function: var(--cubic-bezier--);
 }
 
-.nav-menu-items-info {
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
-  color: var(--RGBA-down-section-email-phone);
-  text-decoration: inherit;
-  font-style: normal;
-}
-
-.nav-menu-items-info:hover,
-.nav-menu-items-info:focus,
 .nav-menu-items-info-top:hover,
 .nav-menu-items-info-top:focus {
   color: var(--blue-bg-button);
