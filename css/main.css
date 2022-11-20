@@ -99,7 +99,7 @@ button {
   width: 1200px;
 }
 
-.top {
+.header-page {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,7 +178,7 @@ button {
 .nav-menu-items.current::after {
   background-color: var(--blue-bg-button);
   position: absolute;
-  display: block;
+  display: inline-block;
   content: "";
   height: 4px;
   border-radius: 2px;
@@ -645,23 +645,18 @@ button {
   outline: none;
 }
 
-.middle {
+.hero__strength {
   padding-top: 94px;
 }
 
-.middle-list {
+.strength__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
 
-.middle-item {
-  -ms-flex-preferred-size: calc((100% - 3 * 30px) / 4);
-      flex-basis: calc((100% - 3 * 30px) / 4);
-}
-
-.middle-header {
+.strength__title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -670,13 +665,13 @@ button {
   margin-bottom: 10px;
 }
 
-.middle-text {
+.strength__description {
   font-size: 13.5px;
   line-height: calc(24 / 14);
   color: var(--nav-address-email-phone-p-);
 }
 
-.four-icons {
+.strength__icon {
   margin-bottom: 30px;
   background-color: var(--portfolio-bottons-color);
   width: 270px;

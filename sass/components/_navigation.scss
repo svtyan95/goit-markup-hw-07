@@ -1,4 +1,4 @@
-.top {
+.header-page {
   display: flex;
   border-bottom: 1px solid #ececec;
 }
@@ -63,7 +63,7 @@
 .nav-menu-items.current::after {
   background-color: var(--blue-bg-button);
   position: absolute;
-  display: block;
+  display: inline-block;
   content: "";
   height: 4px;
   border-radius: 2px;
