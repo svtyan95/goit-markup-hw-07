@@ -13,41 +13,24 @@
       rgba(47, 48, 58, 0.4)
     ),
     url(/images/studio/mainbackground.jpg);
-
-  &.main {
-    margin: 0 auto;
-  }
-
-  &.hero__main {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: calc(60 / 44);
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--main-white-color-h);
-    width: 696px;
-    height: 120px;
-    text-align: center;
-    margin: 0 auto;
-  }
 }
 
-// .hero__main {
-//   margin: 0 auto;
-// }
+.hero__main {
+  margin: 0 auto;
+}
 
-// .hero__text {
-//   font-weight: 900;
-//   font-size: 44px;
-//   line-height: calc(60 / 44);
-//   letter-spacing: 0.06em;
-//   text-transform: uppercase;
-//   color: var(--main-white-color-h);
-//   width: 696px;
-//   height: 120px;
-//   text-align: center;
-//   margin: 0 auto;
-// }
+.hero__text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-white-color-h);
+  width: 696px;
+  height: 120px;
+  text-align: center;
+  margin: 0 auto;
+}
 
 .hero__button {
   font-family: inherit;
