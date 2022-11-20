@@ -99,11 +99,14 @@ button {
   width: 1200px;
 }
 
-.header-page {
+.header-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border-bottom: 1px solid #ececec;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header-container {
@@ -1092,7 +1095,7 @@ footer {
 }
 
 .btn-list {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
