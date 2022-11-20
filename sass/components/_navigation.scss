@@ -53,9 +53,6 @@
 }
 
 /* current */
-.upper-item .current {
-  color: var(--web-hover-button-up-down);
-}
 
 .current {
   position: relative;
@@ -147,4 +144,8 @@
 .nav-menu-items-map:hover,
 .nav-menu-items-map:focus {
   color: var(--blue-bg-button);
+}
+
+.upper-item .current {
+  color: var(--web-hover-button-up-down);
 }

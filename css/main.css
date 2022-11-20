@@ -165,10 +165,6 @@ button {
 }
 
 /* current */
-.upper-item .current {
-  color: var(--web-hover-button-up-down);
-}
-
 .current {
   position: relative;
   display: -webkit-box;
@@ -283,6 +279,10 @@ button {
   color: var(--blue-bg-button);
 }
 
+.upper-item .current {
+  color: var(--web-hover-button-up-down);
+}
+
 .hero-center {
   margin: 0 auto;
 }
@@ -297,8 +297,8 @@ button {
   background-size: cover;
   margin: 0 auto;
   max-width: 1600px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/studio/mainbackground.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/studio/mainbackground.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/studio/mainbackground.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/studio/mainbackground.jpg);
 }
 
 .main-header-text {
