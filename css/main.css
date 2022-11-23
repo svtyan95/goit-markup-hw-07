@@ -278,6 +278,7 @@ button {
 .hero {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/images/studio/mainbackground.jpg");
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/studio/mainbackground.jpg");
+  background-size: auto;
   width: auto;
   height: auto;
   background-color: var(--nav-background-rgba-C4C4C4);
