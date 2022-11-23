@@ -1,12 +1,8 @@
 .hero {
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("/images/studio/mainbackground.jpg");
-  background-size: auto;
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(/images/studio/mainbackground.jpg);
+  background-color: #000000;
   width: auto;
-  height: auto;
   background-color: var(--nav-background-rgba-C4C4C4);
   padding-top: 200px;
   padding-bottom: 200px;
