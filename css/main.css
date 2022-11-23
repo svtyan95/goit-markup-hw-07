@@ -276,6 +276,8 @@ button {
 }
 
 .hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/studio/mainbackground.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/studio/mainbackground.jpg);
   background-color: var(--nav-background-rgba-C4C4C4);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -285,8 +287,6 @@ button {
   background-size: cover;
   margin: 0 auto;
   max-width: 1600px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/studio/mainbackground.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/studio/mainbackground.jpg);
 }
 
 .hero__main {
