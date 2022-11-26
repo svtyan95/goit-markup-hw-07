@@ -166,7 +166,7 @@ button {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: 1.1923076923;
   margin-right: 93px;
 }
 
@@ -186,7 +186,7 @@ button {
   border-bottom: red;
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.1428571429;
   letter-spacing: 0.02em;
   color: var(--nav-studio-portfolio-contact);
   text-decoration: inherit;
@@ -257,7 +257,7 @@ button {
   color: var(--nav-address-email-phone-p-);
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.1428571429;
   letter-spacing: 0.02em;
   text-decoration: inherit;
   padding-bottom: 32px;
@@ -289,7 +289,7 @@ button {
 
 .nav-menu-items-map {
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: var(--main-white-color-h);
   text-decoration: inherit;
@@ -321,8 +321,8 @@ button {
   background-size: cover;
   margin: 0 auto;
   max-width: 1600px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/images/studio/mainbackground.jpg");
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/studio/mainbackground.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/studio/mainbackground.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/studio/mainbackground.jpg");
 }
 
 .hero__main {
@@ -332,7 +332,7 @@ button {
 .hero__text {
   font-weight: 900;
   font-size: 44px;
-  line-height: calc(60 / 44);
+  line-height: 1.3636363636;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-white-color-h);
@@ -349,7 +349,7 @@ button {
   color: var(--main-white-color-h);
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.875;
   letter-spacing: 0.06em;
   cursor: pointer;
   min-width: 216px;
@@ -504,7 +504,7 @@ button {
   display: -ms-flexbox;
   display: flex;
   font-size: 12px;
-  line-height: calc(14 / 12);
+  line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: var(--nav-address-email-phone-p-);
 }
@@ -513,7 +513,7 @@ button {
   text-align: center;
   font-weight: 700;
   font-size: 20px;
-  line-height: calc(23 / 20);
+  line-height: 1.15;
   color: #212121;
   margin-bottom: 12px;
 }
@@ -521,7 +521,7 @@ button {
 .text-above {
   display: block;
   font-size: 12px;
-  line-height: calc(14 / 12);
+  line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: var(--nav-address-email-phone-p-);
   margin-bottom: 4px;
@@ -538,6 +538,14 @@ button {
 }
 
 ::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+::-moz-placeholder {
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
@@ -607,14 +615,14 @@ button {
 .policy-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.7142857143;
   color: var(--nav-address-email-phone-p-);
 }
 
 .policy-text-link {
   font-weight: 400;
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.7142857143;
   color: var(--web-hover-button-up-down);
   text-decoration: underline;
   margin-left: 5px;
@@ -623,7 +631,7 @@ button {
 .text-btn-modal {
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.875;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -698,7 +706,7 @@ button {
 .strength__title {
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.1428571429;
   text-transform: uppercase;
   color: var(--nav-studio-portfolio-contact);
   margin-bottom: 10px;
@@ -706,7 +714,7 @@ button {
 
 .strength__description {
   font-size: 13.5px;
-  line-height: calc(24 / 14);
+  line-height: 1.7142857143;
   color: var(--nav-address-email-phone-p-);
 }
 
@@ -741,8 +749,8 @@ button {
 
 .what-items {
   gap: 30px;
-  -ms-flex-preferred-size: calc((100% - 2 * 30px) / 3);
-      flex-basis: calc((100% - 2 * 30px) / 3);
+  -ms-flex-preferred-size: calc((100% - 60px) / 3);
+      flex-basis: calc((100% - 60px) / 3);
 }
 
 .whatwedo-desc {
@@ -770,14 +778,14 @@ button {
   background-color: var(--what-we-do-descrption-bg);
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.1428571429;
   text-transform: uppercase;
 }
 
 .header-pictures-text {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42 / 36);
+  line-height: 1.1666666667;
   color: var(--nav-studio-portfolio-contact);
   display: block;
   text-align: center;
@@ -793,7 +801,7 @@ button {
 .team-header-text {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42 / 36);
+  line-height: 1.1666666667;
   color: var(--nav-studio-portfolio-contact);
   display: block;
   text-align: center;
@@ -821,14 +829,14 @@ button {
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(19 / 16);
+  line-height: 1.1875;
   color: var(--nav-studio-portfolio-contact);
   margin-bottom: 10px;
 }
 
 .team-position {
   font-size: 16px;
-  line-height: calc(19 / 16);
+  line-height: 1.1875;
   color: var(--nav-address-email-phone-p-);
 }
 
@@ -977,7 +985,7 @@ footer {
   margin-left: 79px;
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.1428571429;
   text-transform: uppercase;
 }
 
@@ -1009,7 +1017,7 @@ footer {
 .second-part {
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.1428571429;
   text-transform: uppercase;
   color: var(--main-white-color-h);
 }
@@ -1081,7 +1089,7 @@ footer {
 
 .nav-menu-items-info {
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: var(--RGBA-down-section-email-phone);
   text-decoration: inherit;
@@ -1113,14 +1121,14 @@ footer {
 .gallery-head {
   font-weight: 700;
   font-size: 17px;
-  line-height: calc(36 / 18);
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--nav-studio-portfolio-contact);
 }
 
 .gallery-txt {
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.875;
   color: var(--nav-address-email-phone-p-);
   margin-top: 4px;
 }
@@ -1146,7 +1154,7 @@ footer {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(26 / 16);
+  line-height: 1.625;
   border-radius: 4px;
   color: var(--nav-studio-portfolio-contact);
   background-color: var(--portfolio-bottons-color);
@@ -1194,8 +1202,8 @@ footer {
   display: flex;
   margin-top: var(--card-set-gap);
   margin-left: var(--card-set-gap);
-  -ms-flex-preferred-size: calc(100% / 3 - var(--card-set-gap));
-      flex-basis: calc(100% / 3 - var(--card-set-gap));
+  -ms-flex-preferred-size: calc(33.3333333333% - var(--card-set-gap));
+      flex-basis: calc(33.3333333333% - var(--card-set-gap));
 }
 
 .gallery-link:hover,
@@ -1229,7 +1237,7 @@ footer {
   position: absolute;
   padding: 63px 24px;
   font-size: 18px;
-  line-height: calc(28 / 18);
+  line-height: 1.5555555556;
   color: var(--main-white-color-h);
 }
 
@@ -1241,5 +1249,4 @@ footer {
 .gallery-link:focus .overlay {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
